@@ -1,0 +1,152 @@
+*{
+    margin: 0 5px;
+}
+body{
+    background-color:#EBB67A;
+    font-family:"roboto", sans-serif;
+    color: #ffffff;
+}
+
+.section-accueil{
+    background-color: #2b331e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.section-a-propos{
+    background-color: #2b331e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.section-realisation{
+    background-color: #2b331e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.section-cv{
+    background-color: #2b331e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.section-contact{
+    background-color: #2b331e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+nav{
+    background-color:#91704C;
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+nav li{
+    display: inline;
+    padding: 30px;
+}
+
+nav a{
+    color: #F7F7F7;
+    text-decoration: none;
+    font-size: large;}
+
+nav a:hover{
+    border-bottom:#EBB67A solid 3px;
+}
+
+p{
+    margin-top:10px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+h1{
+    color: #EBB67A;
+    margin-bottom:20px;
+    margin-top: 5px;
+    font-size:xx-large;
+}
+
+h2,h3{
+    color:#EBB67A ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.photo-profil{
+    width: 400px;
+    display: inline-block;
+}
+
+.accueil-texte{
+    display: inline-block;
+}
+
+.accueil{
+    display: inline-block;
+}
+
+.liste-accueil{
+    line-height: 2.5;
+}
+
+.tableau-pays,tr,td,th{
+    border: solid white 2px;
+}
+
+.tableau-pays{
+    border-collapse: collapse;
+}
+
+.tableau-pays td, .tableau-pays th{
+    padding: 5px;
+    text-align: center;
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.section-cv a{
+    color: rgb(173, 172, 192);
+}
+
+.section-contact h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-contact form{
+    width: 60%;
+    color: #91704C;
+    border: black solid 2px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.formulaire input{
+    width: 70%;
+}
+.formulaire textarea{
+    width: 95%;
+    margin: 10px auto;
+}
+
+footer{
+    height: 80px;
+    background-color: #91704C;
+}
+footer p{
+    text-align: center;
+}
